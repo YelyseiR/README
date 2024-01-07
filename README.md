@@ -8,9 +8,9 @@
 ## About the project
 This REST API project was implemented for educational purposes at GoIT school, where we learned how to work collaboratively in a team. We built the entire project from scratch using Java and related development environments, including IntelliJ IDEA, PostgreSQL, Docker, GitHub, and more.
 #### The main functions of the project:
--  Create a URL for your valid settlement.
-- Edit/submit individual URLs.
-- Ability to obtain conversion statistics for shorted URLs.
+- Generate short URLs for any valid link.
+- Edit/track individual URLs.
+- Ability to track statistics of following by shortened URLs.
 #### Technologies used:
 - Spring Boot
 - Spring Data
