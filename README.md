@@ -1,17 +1,16 @@
-
 # Java Quick Link App ![Java](https://cdn3.emoji.gg/emojis/java.png)
 ## Table of contents
 * [About the project](#about-the-project)
 * [Project requirements](#project-requirements)
 * [How to start the project](#how-to-start-the-project)
-* [About team](#about-team)
+* [About the team members](#about-the-team-members)
 
 ## About the project
 This REST API project is implemented for educational purposes in GoIT school were we learning on how to work in team, how to build a whole project from zero using java and related development environment in order to build this project, such as: IntelijIdea, PostgreSQL, Docker, GitHub, etc. 
 #### The main functions of the project:
 -  Create a URL for your valid settlement.
 - Edit/submit individual URLs.
-- Ability to obtain conversion statistics for high-speed URLs.
+- Ability to obtain conversion statistics for shorted URLs.
 #### Technologies used:
 - Spring Boot
 - Spring Data
@@ -26,6 +25,13 @@ This REST API project is implemented for educational purposes in GoIT school wer
 - Docker-compose
 
 ## Project requirements
+- There should be two launch profiles, default and prod https://www.baeldung.com/spring-profiles
+- The default profile is set to run locally.
+- Prod for the remote server (if available)
+- The application must have a Dockerfile, and the local application startup (application + database) must be described in docker-compose.yml
+- Database for tests should be run using https://java.testcontainers.org/
+- All private information, such as login and password, to the database must be in the form of environment variables: ${DB_USERNAME}
+ - Environment variables must be described in the README.md file
 1. Registration and authentication of users
 
 Registration:
@@ -55,3 +61,49 @@ Authentication:
 - Even a non-registered user can follow the shortened link.
 - Statistics of transitions should be updated.
 - The response must be cached.
+
+## How to start the project
+As it mentioned earlier, we use an environment variables in this project. So, before start the project be sure that you have build the project, set up the environment variables and created the variables.env file with all the necessary requirements.
+`variables.env`
+
+
+
+    DB_URL=your_custom_db_url
+    DB_USERNAME=your_custom_username
+    DB_PASSWORD=your_custom_password
+
+Also, in order to start the project you need to generate `docker-image`
+
+     docker build -t your-app-image .
+     docker run --env-file=variables.env -p 9999:9999 your-app-image
+
+## About the team members
+### Andrii Protas 
+- __[LinkedIn](https://www.linkedin.com/in/andriiiiiko/)__
+- __[GitHub](https://github.com/andriiiiiko)__
+
+### Vladyslav Malovanyi
+- __[LinkedIn](https://www.linkedin.com/in/vladyslav-malovanyi-b1040b27b/)__
+- __[GitHub](https://github.com/vldMlvn)__
+
+### Diana Paievska
+- __[LinkedIn]()__
+- __[GitHub](https://github.com/paievska)__
+
+### Yelysei Rodionov 
+- __[LinkedIn](https://www.linkedin.com/in/yelysei-rodionov/)__
+- __[GitHub](https://github.com/YelyseiR)__
+
+### Team member
+- __[LinkedIn]()__
+- __[GitHub]()__
+
+### Team member
+- __[LinkedIn]()__
+- __[GitHub]()__
+### Team member
+- __[LinkedIn]()__
+- __[GitHub]()__
+### Team member
+- __[LinkedIn]()__
+- __[GitHub]()__
