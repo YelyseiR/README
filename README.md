@@ -3,6 +3,7 @@
 * [About the project](#about-the-project)
 * [Project requirements](#project-requirements)
 * [How to start the project](#how-to-start-the-project)
+- __[Quick Link Frontend React (GitHub Repo)](https://github.com/andriiiiiko/quick-link-frontend)__
 * [About the team members](#about-the-team-members)
 
 ## About the project
@@ -86,6 +87,7 @@ Also, in order to start the project you need to generate `docker-image`
      docker run -d -p 9999:9999 -e DB_PASSWORD='password' -e DB_URL='url' -e DB_USERNAME='username' andriiiiiko/quick-link
 
 ## About the team members
+
 ### Andrii Protas 
 - __[LinkedIn](https://www.linkedin.com/in/andriiiiiko/)__
 - __[GitHub](https://github.com/andriiiiiko)__
@@ -101,6 +103,10 @@ Also, in order to start the project you need to generate `docker-image`
 ### Diana Paievska
 - __[LinkedIn]()__
 - __[GitHub](https://github.com/paievska)__
+
+### Vitaliy Volokitkin 
+- __[LinkedIn](https://www.linkedin.com/in/vitaliy-volokitkin-55741b28b/)__
+- __[GitHub](https://github.com/VitaliyJV)__
 
 ### Oleksii Yevdokimov
 - __[LinkedIn](https://www.linkedin.com/in/oleksii-yevdokymov-5a6730217/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)__
