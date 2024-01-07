@@ -6,7 +6,7 @@
 * [About the team members](#about-the-team-members)
 
 ## About the project
-This REST API project is being implemented for educational purposes at GoIT school, where we are learning how to work collaboratively in a team. We're building the entire project from scratch using Java and related development environments, including IntelliJ IDEA, PostgreSQL, Docker, GitHub, and more.
+This REST API project was implemented for educational purposes at GoIT school, where we learned how to work collaboratively in a team. We built the entire project from scratch using Java and related development environments, including IntelliJ IDEA, PostgreSQL, Docker, GitHub, and more.
 #### The main functions of the project:
 -  Create a URL for your valid settlement.
 - Edit/submit individual URLs.
