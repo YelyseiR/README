@@ -68,14 +68,22 @@ As it mentioned earlier, we use an environment variables in this project. So, be
 
 
 
-    DB_URL=your_custom_db_url
-    DB_USERNAME=your_custom_username
-    DB_PASSWORD=your_custom_password
+    # DB env
+    DB_PASSWORD=password
+    DB_URL=jdbc:postgresql://goit.c082abjve5fs.eu-central-1.rds.amazonaws.com:5432/quick_link
+    DB_USERNAME=postgres
+
+    # pgAdmin env
+    PGADMIN_DEFAULT_EMAIL: admin@example.com
+    PGADMIN_DEFAULT_PASSWORD: admin
+    PGADMIN_LISTEN_PORT: 8080
+
+
 
 Also, in order to start the project you need to generate `docker-image`
 
-     docker build -t your-app-image .
-     docker run --env-file=variables.env -p 9999:9999 your-app-image
+     docker build -t quick-link .
+     docker run -d -p 9999:9999 -e DB_PASSWORD='password' -e DB_URL='url' -e DB_USERNAME='username' andriiiiiko/quick-link
 
 ## About the team members
 ### Andrii Protas 
@@ -86,24 +94,19 @@ Also, in order to start the project you need to generate `docker-image`
 - __[LinkedIn](https://www.linkedin.com/in/vladyslav-malovanyi-b1040b27b/)__
 - __[GitHub](https://github.com/vldMlvn)__
 
+### Sergey Tomachenko 
+- __[LinkedIn](https://www.linkedin.com/in/sergey-tomachenko/)__
+- __[GitHub](https://github.com/Ne4upara)__
+
 ### Diana Paievska
 - __[LinkedIn]()__
 - __[GitHub](https://github.com/paievska)__
+
+### Oleksii Yevdokimov
+- __[LinkedIn](https://www.linkedin.com/in/oleksii-yevdokymov-5a6730217/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)__
+- __[GitHub](https://github.com/AlexYevdokymov)__
 
 ### Yelysei Rodionov 
 - __[LinkedIn](https://www.linkedin.com/in/yelysei-rodionov/)__
 - __[GitHub](https://github.com/YelyseiR)__
 
-### Team member
-- __[LinkedIn]()__
-- __[GitHub]()__
-
-### Team member
-- __[LinkedIn]()__
-- __[GitHub]()__
-### Team member
-- __[LinkedIn]()__
-- __[GitHub]()__
-### Team member
-- __[LinkedIn]()__
-- __[GitHub]()__
