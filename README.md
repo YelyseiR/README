@@ -101,15 +101,19 @@ Also, in order to start the project you need to generate `docker-image`
 - __[GitHub](https://github.com/Ne4upara)__
 
 ### Diana Paievska
-- __[LinkedIn]()__
+- __[LinkedIn](https://www.linkedin.com/in/%D0%B4%D1%96%D0%B0%D0%BD%D0%B0-%D0%BF%D0%B0%D1%94%D0%B2%D1%81%D1%8C%D0%BA%D0%B0-03aa3a1aa/?trk=contact-info)__
 - __[GitHub](https://github.com/paievska)__
 
 ### Vitaliy Volokitkin 
 - __[LinkedIn](https://www.linkedin.com/in/vitaliy-volokitkin-55741b28b/)__
 - __[GitHub](https://github.com/VitaliyJV)__
 
+### Nazar Yefimov 
+- __[LinkedIn](https://www.linkedin.com/in/vitaliy-volokitkin-55741b28b/)__
+- __[GitHub](https://github.com/NazarYefimov)__
+
 ### Oleksii Yevdokimov
-- __[LinkedIn](https://www.linkedin.com/in/oleksii-yevdokymov-5a6730217/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)__
+- __[LinkedIn](https://www.linkedin.com/in/nazar-yefimov-3543042a5/)__
 - __[GitHub](https://github.com/AlexYevdokymov)__
 
 ### Yelysei Rodionov 
