@@ -109,11 +109,11 @@ Also, in order to start the project you need to generate `docker-image`
 - __[GitHub](https://github.com/VitaliyJV)__
 
 ### Nazar Yefimov 
-- __[LinkedIn](https://www.linkedin.com/in/vitaliy-volokitkin-55741b28b/)__
+- __[LinkedIn](https://www.linkedin.com/in/nazar-yefimov-3543042a5/)__
 - __[GitHub](https://github.com/NazarYefimov)__
 
 ### Oleksii Yevdokimov
-- __[LinkedIn](https://www.linkedin.com/in/nazar-yefimov-3543042a5/)__
+- __[LinkedIn](https://www.linkedin.com/in/oleksii-yevdokymov-5a6730217/)__
 - __[GitHub](https://github.com/AlexYevdokymov)__
 
 ### Yelysei Rodionov 
